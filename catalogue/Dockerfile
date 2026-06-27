@@ -1,4 +1,4 @@
-FROM nodejs:20
+FROM node:20
 # workdir it will create if /app is not there after creating it will move to /app
 WORKDIR /app
 COPY package.json .
